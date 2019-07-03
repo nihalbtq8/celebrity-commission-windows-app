@@ -19,7 +19,7 @@ def get_date(which):
 
 
 
-uri = 'mysql://readonly:ZRxtxJCR3nLlNYgA@54.171.238.241/aoi?charset=utf8'
+uri = 'mysql://user:password@ip/aoi?charset=utf8'
 engine = create_engine(uri, encoding="utf8")
 conn = engine.connect()
 
